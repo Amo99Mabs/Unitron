@@ -5,6 +5,7 @@ highest_num = 100
 answer = random.randint(lowest_num, highest_num)
 guesses = 0
 is_running = True
+is_running = True
 
 print("UNITRON - Number Guessing game!")
 print(f"Select a number between {lowest_num} and {highest_num}")
@@ -30,4 +31,3 @@ while is_running:
         is_running = False
 else:
     print("Invalid guess")
-    print(f"Please select a number between {lowest_num} and {highest_num}")
