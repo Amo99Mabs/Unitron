@@ -4,8 +4,12 @@ lowest_num = 1
 highest_num = 100
 answer = random.randint(lowest_num, highest_num)
 guesses = 0
+<<<<<<< HEAD
 is_running = True
 is_running = True
+=======
+is_running = True 
+>>>>>>> 2b76d3b85617bec29efad47189b9623419693790
 
 print("UNITRON - Number Guessing game!")
 print(f"Select a number between {lowest_num} and {highest_num}")
